@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1300px;
+    overflow: hidden;
+    margin: 25px auto;
+    border-radius: 20px;
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+}
+
+main {
+    border: 2px solid #247BA0;
+}
+
+.header, .footer {
+    padding: .5em;
+    color: #fff;
+    background-color: #247BA0;
+    text-align: center;
+}
+
+.header__titulo {
+    font-size: 1.6em;
+    font-weight: 600;
+}
+
+.main__cuerpo {
+    display: flex;
+    gap: 2em;
+    padding: .8em;
+}
+
+.nav {
+    padding: 1em;
+    width: 200px;
+    background-color: #f5f6f2;
+    border: 2px dashed #d0d3cd;
+    border-radius: 1rem;
+}
+
+.nav__lista {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+}
+
+.nav__enlace {
+    text-decoration: none;
+    color: #50514F;
+    font-weight: 500;
+}
+
+.nav__enlace:hover {
+    font-weight: 700;
+}
+
+.contenido {
+    display: flex;
+    align-items: center;
+    gap: .8em;
+}
+
+.contenido__img {
+    width: 250px;
+    object-fit: cover;
+}
+
+.informacion {
+    padding: 1em;
+    overflow: hidden;
+}
+
+.contenido__parrafo {
+    line-height: 1.6;
+    color: #50514F;
+    margin-top: 10px;
+    text-align: justify;
+    max-width: 1100px;
+}
+
+.mexico {
+    color: #01791a;
+}
+
+.londres {
+    color: #dc143c;
+}
+
+.paris {
+    color: #4169e1;
+}
+
+.tokyo {
+    color: #dc2b0c;
+}
+
+.costa-rica {
+    color: #a00e2b;
+}
+
+.brasil {
+    color: #ffdf00;
+}
+
+.australia {
+    color: #e53138;
+}
+
+.italia {
+    color: #008c45;
+}
